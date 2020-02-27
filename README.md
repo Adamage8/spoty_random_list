@@ -1,4 +1,4 @@
-# spoty_random_list
+# Random Spotify lejátszási lista generátor
 
 ## Az feladat leírása
 
