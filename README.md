@@ -14,6 +14,7 @@ Készítsünk egy olyan alkalmazást, amely frontenden olyan felületet kínál,
 - Ezeket százalékos arányban lehet állítani, hogy a generált listában hogy legyenek benne
 - Ha a megadott százalékok nem töltik ki a 100-at, akkor hasonló zenékkel kitölti azt
 - Időközönként a lista a rögzített feltételek megtartása mellett változik, újragenerálódik.
+- A listák közül válogathatnak a felhasználók, és sajátjukként módosíthatják
 
 ## Nem funkcionális követelmények
 
