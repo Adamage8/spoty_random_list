@@ -40,3 +40,20 @@ Post Malone 40%
 G-Easy 20%
 
 Random 40%
+
+## Végpontok
+
+- GET users/
+- GET users/copy-requests/
+- GET users/
+- GET users/{id}
+- POST users/
+- PATCH users/
+- GET compositions/
+- GET compositions/comments/
+- GET compositions/{id}
+- POST composition/
+- PATCH composition/
+- POST comments/
+- POST copy-requests/
+- PATCH copy-requests/{id}
