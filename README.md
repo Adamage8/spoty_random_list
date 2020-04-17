@@ -57,3 +57,7 @@ Random 40%
 - POST comments/
 - POST copy-requests/
 - PATCH copy-requests/{id}
+
+## UML adatbázis terv
+
+![adatbazis terv](https://raw.githubusercontent.com/Adamage8/spoty_random_list/master/uml.png)
