@@ -35,6 +35,13 @@ Készítsünk egy olyan alkalmazást, amely frontenden olyan felületet kínál,
 - Frontend
 - Backend
 
+## Fejlesztői környezet
+
+- IntelliJ IDE
+- H2 adatbázis
+- Maven dependency manager
+- Java Spring Boot
+
 ## Példa
 
 Post Malone 40%
