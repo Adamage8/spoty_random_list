@@ -15,6 +15,8 @@ Készítsünk egy olyan alkalmazást, amely frontenden olyan felületet kínál,
 - Ha a megadott százalékok nem töltik ki a 100-at, akkor hasonló zenékkel kitölti azt
 - Időközönként a lista a rögzített feltételek megtartása mellett változik, újragenerálódik.
 - A listák közül válogathatnak a felhasználók, és sajátjukként módosíthatják
+- A felhasználók írhatnak megjegyzéseket az egyes listákhoz
+- A felhasználók kérhetnek engedélyt, hogy a saját Spotify fiókjukhoz hozzátehessék más felhasználók listáit, és módosíthassák sajátjukként
 
 ## Nem funkcionális követelmények
 
@@ -30,8 +32,8 @@ Készítsünk egy olyan alkalmazást, amely frontenden olyan felületet kínál,
 
 - GitHub Repository karbantartása
 - Fejlesztői megjegyzések
-- Frontend - közös
-- Backend - közös
+- Frontend
+- Backend
 
 ## Példa
 
@@ -44,19 +46,14 @@ Random 40%
 ## Végpontok
 
 - GET users/
-- GET users/copy-requests/
-- GET users/
 - GET users/{id}
 - POST users/
-- PATCH users/
+- PATCH users/{id}
 - GET compositions/
-- GET compositions/comments/
 - GET compositions/{id}
 - POST composition/
 - PATCH composition/
-- POST comments/
-- POST copy-requests/
-- PATCH copy-requests/{id}
+- POST copy-requests/accept
 
 ## UML adatbázis terv
 
