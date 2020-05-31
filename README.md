@@ -1,5 +1,8 @@
 # Random Spotify lejátszási lista generátor
 
+## Frontend repository
+Ennek a projectnek a frontend része ebben a repository-ban található: https://github.com/Adamage8/spoty_random_list_frontend
+
 ## Az feladat leírása
 
 Készítsünk egy olyan alkalmazást, amely frontenden olyan felületet kínál, amely alkalmas a Spotify API-n keresztül egyedi lejátszási listákat generálni, amelyekhez a lent részletezett backend funkciókat alkalmazza.
