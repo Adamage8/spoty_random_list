@@ -27,6 +27,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User getByClientId(String id) {
+        return userRepository.findByClientId(id).orElseThrow(EntityNotFoundException::new);
+    }
+
+    @Override
     public User create(User user) {
         return userRepository.save(user);
     }

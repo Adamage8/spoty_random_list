@@ -34,6 +34,16 @@ public class CompositionServiceImpl implements CompositionService {
     @Override
     public Composition update(Long id, Composition composition) {
         Composition modifiedComposition = compositionRepository.findById(id).orElseThrow(EntityNotFoundException::new);
+        modifiedComposition.setName(composition.getName());
+        modifiedComposition.setNumberOfItems(composition.getNumberOfItems());
+        modifiedComposition.setCompositionItems(composition.getCompositionItems());
+        modifiedComposition.setComments(composition.getComments());
         return compositionRepository.save(modifiedComposition);
+    }
+
+    @Override
+    public void delete(Long id) {
+        Composition compositionToDelete = compositionRepository.findById(id).orElseThrow(EntityNotFoundException::new);
+        compositionRepository.delete(compositionToDelete);
     }
 }

@@ -28,19 +28,15 @@ public class User {
     @NotNull
     private String clientId;
 
-    @NotNull
     @OneToMany
     private List<Comment> comments;
 
-    @NotNull
     @OneToMany
     private List<Composition> compositions;
 
-    @NotNull
     @OneToMany
     private List<CopyRequest> copyRequests;
 
-    @NotNull
     @ManyToMany
     private List<User> subscribedTo;
 }

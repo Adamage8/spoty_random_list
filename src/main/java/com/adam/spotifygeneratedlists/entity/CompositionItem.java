@@ -24,5 +24,9 @@ public class CompositionItem {
 
     @Column
     @NotNull
+    private String spotifyId;
+
+    @Column
+    @NotNull
     private Integer percent;
 }

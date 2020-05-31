@@ -10,4 +10,5 @@ public interface CompositionService {
     public Composition getById(Long id);
     public Composition create(Composition Composition);
     public Composition update(Long id, Composition Composition);
+    public void delete(Long id);
 }

@@ -19,20 +19,15 @@ public class Comment {
     private Long id;
 
     @NotNull
-    @ManyToOne
-    private User user;
-
-    @NotNull
-    @ManyToOne
-    private Composition composition;
+    @Column
+    private String userName;
 
     @Column
     @NotNull
     private String text;
 
-    @NotNull
-    @ManyToOne
-    private Comment replyTo;
+    @Column
+    private Long replyTo;
 
     @Column
     @NotNull

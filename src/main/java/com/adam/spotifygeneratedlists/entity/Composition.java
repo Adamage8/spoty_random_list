@@ -23,7 +23,14 @@ public class Composition {
     @NotNull
     private String name;
 
+    @Column
     @NotNull
-    @OneToMany
+    private Integer numberOfItems;
+
+    @NotNull
+    @OneToMany(cascade = {CascadeType.ALL})
     private List<CompositionItem> compositionItems;
+
+    @OneToMany(cascade = {CascadeType.ALL})
+    private List<Comment> comments;
 }
