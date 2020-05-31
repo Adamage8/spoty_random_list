@@ -163,3 +163,6 @@ Egy előkészített összeállítást le lehet generáltatni. Ezt az "összeáll
 ## Megjegyzés fűzése
 
 Az "összeállítások" oldalon minden összeállítás alatt van egy megjegyzés mező. A küldésre kattintva hozzáadja a megjegyzést
+
+## Használati eset diagram
+![hasznalati eset diagram](https://raw.githubusercontent.com/Adamage8/spoty_random_list/master/use_case.png)
